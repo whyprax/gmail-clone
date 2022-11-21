@@ -1,0 +1,51 @@
+.header {
+  display: flex;
+  gap: 2rem;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem 1rem;
+  -webkit-box-shadow: 0px 8px 12px -1px rgba(0, 0, 0, 0.075);
+  -moz-box-shadow: 0px 8px 12px -1px rgba(0, 0, 0, 0.075);
+  box-shadow: 0px 8px 12px -1px rgba(0, 0, 0, 0.075);
+}
+
+.header__left {
+  flex: 0.2;
+  display: flex;
+  gap: 8px;
+}
+
+.header__left > img {
+  object-fit: contain;
+  width: 120px;
+  cursor: pointer;
+}
+
+.header__middle {
+  flex: 0.6;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  background-color: whitesmoke;
+  padding: 6px 10px;
+  color: grey;
+  border-radius: 6px;
+}
+
+.header__middle > input {
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  background-color: transparent;
+}
+
+.header__right {
+  flex: 0.2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: grey;
+  gap: 4px;
+  cursor: pointer;
+}
