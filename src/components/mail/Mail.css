@@ -1,6 +1,7 @@
 .mail {
   flex: 0.8;
   background-color: whitesmoke;
+  width: 0;
 }
 
 .mainTools {
@@ -20,6 +21,7 @@
 .mail__bodyHeader {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   margin-bottom: 1rem;
 }
 
@@ -31,4 +33,8 @@
 
 .mail__important {
   color: orange;
+}
+
+.mail__message > p {
+  overflow-wrap: break-word;
 }

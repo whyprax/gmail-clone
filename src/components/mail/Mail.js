@@ -22,7 +22,10 @@ const Mail = () => {
             </div>
           </div>
           <div className="mail__message">
-            <p>This is the message</p>
+            <p>
+              This is the message. kdk kdkd dkd kdjkj dkjdk jdkjd kdjk djdkl
+              jdklj dkjd kjdk jdkl jdkj dkdj kdjk jdk
+            </p>
           </div>{" "}
         </Paper>
       </div>

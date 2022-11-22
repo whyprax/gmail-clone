@@ -5,6 +5,7 @@ import Sidebar from "./components/sidebar/Sidebar";
 import EmailList from "./components/email/EmailList";
 import Mail from "./components/mail/Mail";
 import "./App.css";
+import SendMail from "./components/sendMail/SendMail";
 
 const App = () => {
   return (
@@ -18,6 +19,8 @@ const App = () => {
             <Route path="/email" element={<Mail />} />
           </Routes>
         </div>
+
+        <SendMail />
       </div>
     </BrowserRouter>
   );
